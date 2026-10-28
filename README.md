@@ -4,7 +4,7 @@ Copyright (C) 2026 Svetlin Tassev. Licensed under the GNU General Public License
 
 A command-line toolkit for running open-weight speech-recognition models locally, comparing transcription runs, and making two types of audio normalization. The installation script targets Manjaro/Arch Linux and keeps incompatible ASR stacks in separate Python environments.
 
-The code contains a standalone html which is a fancy Transcription Comparator diffing tool. It is synced with the audio (if provided). It can be used for diffing ordinary text files as well. Here it is in action:
+The code contains a standalone html which is a fancy Transcription Comparator diffing/merging tool. When transcripts are imported, they are automatically synced with the audio (if provided). Alternatively, it can be used for diffing ordinary text files as well. Here it is in action (comparing transcriptions of a lecture):
 
 <img width="1920" height="887" alt="Screenshot From 2026-10-27 05-14-46" src="https://github.com/user-attachments/assets/da2314fa-ce15-4773-b109-fc321db8726e" />
 
